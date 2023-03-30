@@ -1,0 +1,12 @@
+tahapan pertama yaitu import library yang dibutuhkan antara lain: numpy, matplotlib dan pandas
+
+selanjutnya kita masukkan data yang sudah kita punya fungsi read_csv dan assign ke variabel x untuk data dan y untuk class
+
+jika terdapat data yang isinya null / tidak ada maka kita bisa isi dengan nilai rata rata dari keseluruhan data sehingga mencegah data yang kosong
+namun berhubung data yang saya gunakan tidak ada missing values maka stem ini akan di skip
+
+Selanjutnya adalah mengubah label yang berada di Y menjadi angka matrix
+
+Lalu pisahkan data training dan data testing sebanyak 80% untuk training dan 20% untuk tesing
+
+Langkah terakhir yaitu Menscale ulang angka agar gapnya tidak terlalu besar, namun untuk data ini tidak memiliki angka yang besar sehingga bisa di skip
