@@ -1,0 +1,2 @@
+langkah yang pertama adalah memasukkan dataset yang akan kita gunakan. pada praktek ini saya menggunakan data penderita diabetes
+
