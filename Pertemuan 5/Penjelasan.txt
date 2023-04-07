@@ -1,2 +1,10 @@
 langkah yang pertama adalah memasukkan dataset yang akan kita gunakan. pada praktek ini saya menggunakan data penderita diabetes
+namun pada dataset ini saya hanya menggubakan data pada kolom kadar glukosa dan umur saja
 
+setelah kita memilih dataset yang akan digunakan, selanjuttnya saya akan memisahkan antara data train dan dala test dengan rasio 20% untuk data test dan 80% untuk data train
+
+lalu saya akan menentukan default scaller agar data yang ada tidak meninggalkan gap yang besar
+
+selanjutnya saya akan menghitung nilain dari akurasi prediksi menggunakan confusion matrix
+
+langkah terakhir adalah membuat diagram matrix untuk data training dan data testing untuk melihat hasilnya
