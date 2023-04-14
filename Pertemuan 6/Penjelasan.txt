@@ -1,0 +1,11 @@
+tahapan pertama yaitu import library yang dibutuhkan antara lain: numpy, matplotlib dan pandas
+
+selanjutnya kita masukkan data yang sudah kita punya fungsi read_csv dan menampilkan datanya 
+jika ingin menampilkan data yang lebih ringkas maka kita akan menggunakan fungsi info() untuk menampilkan atribut dari masing masing kolom
+
+lalu kita akan menampilkan data yang mengandung filter yang sudah ditentukan
+filter tersebut juga dapat ditambahkan dengan fungsi unique() sehingga akan menampilkan hanya satu data per jenis
+
+Selanjutnya jika kita mau mensortir data menurut alphabet maka kita dapat menggunakan fungsi sort()
+
+Untuk penggunaan filter dapat menggunakan lebih dari 1 filter dalam satu penampilan data
