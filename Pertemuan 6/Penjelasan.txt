@@ -1,11 +1,10 @@
-tahapan pertama yaitu import library yang dibutuhkan antara lain: numpy, matplotlib dan pandas
+langkah yang pertama adalah memasukkan dataset yang akan kita gunakan. pada praktek ini saya menggunakan data penderita diabetes
+namun pada dataset ini saya hanya menggubakan data pada kolom kadar glukosa dan takanan darah saja
 
-selanjutnya kita masukkan data yang sudah kita punya fungsi read_csv dan menampilkan datanya 
-jika ingin menampilkan data yang lebih ringkas maka kita akan menggunakan fungsi info() untuk menampilkan atribut dari masing masing kolom
+setelah kita memilih dataset yang akan digunakan, selanjuttnya saya akan memisahkan antara data train dan dala test dengan rasio 25% untuk data test dan 75% untuk data train
 
-lalu kita akan menampilkan data yang mengandung filter yang sudah ditentukan
-filter tersebut juga dapat ditambahkan dengan fungsi unique() sehingga akan menampilkan hanya satu data per jenis
+lalu saya akan menentukan default scaller agar data yang ada tidak meninggalkan gap yang besar
 
-Selanjutnya jika kita mau mensortir data menurut alphabet maka kita dapat menggunakan fungsi sort()
+selanjutnya saya akan menghitung nilai dari akurasi prediksi menggunakan confusion matrix
 
-Untuk penggunaan filter dapat menggunakan lebih dari 1 filter dalam satu penampilan data
+langkah terakhir adalah membuat diagram matrix untuk data training dan data testing untuk melihat hasilnya
