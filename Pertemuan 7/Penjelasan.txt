@@ -1,11 +1,18 @@
-tahapan pertama yaitu import library yang dibutuhkan antara lain: numpy, matplotlib dan pandas
+tahapan pertama yaitu import library yang dibutuhkan antara lain: numpy, matplotlib dan sklearn tree
 
 selanjutnya kita masukkan data yang sudah kita punya fungsi read_csv dan menampilkan datanya 
 jika ingin menampilkan data yang lebih ringkas maka kita akan menggunakan fungsi info() untuk menampilkan atribut dari masing masing kolom
 
-lalu kita akan menampilkan data yang mengandung filter yang sudah ditentukan
-filter tersebut juga dapat ditambahkan dengan fungsi unique() sehingga akan menampilkan hanya satu data per jenis
+lalu ubah data Spesies yang awalnya berupa String menjadi Unique Interger
 
-Selanjutnya jika kita mau mensortir data menurut alphabet maka kita dapat menggunakan fungsi sort()
+Jika terdapat kolom data yang tidak berguna maka kita dapat menghapusnya dengan perintah drop
 
-Untuk penggunaan filter dapat menggunakan lebih dari 1 filter dalam satu penampilan data
+Selanjutnya kita akan mengubah data yang awalnya berupa dataframe menjadi array menggunakan Numpy
+
+Selanjutnya kita akan membagi data training dan data tersing
+
+lalu kita akan memecah data ke Input dan label
+
+lalu kita akan mendefinisikan classifiernya dan mentraining model yang kita buat
+
+terakhir kita akan mempredict data dan menghitung akurasinya
