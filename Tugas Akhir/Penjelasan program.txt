@@ -1,11 +1,15 @@
-tahapan pertama yaitu import library yang dibutuhkan antara lain: numpy, matplotlib dan pandas
+Jika saat menjelaskan secara manual maka ada keterbatasan dalam mengolah jumlah data, namun jika kita menggunakan program maka hal tersebut dapat diatasi dengan mudah
+pada program ini saya telah menguji data yang sama namun dengan jumlah data yang lebih banyak dengan nilai K yang berbeda dan dihasilkan hasil akurasi sebagai berikut
 
-selanjutnya kita masukkan data yang sudah kita punya fungsi read_csv dan menampilkan datanya 
-jika ingin menampilkan data yang lebih ringkas maka kita akan menggunakan fungsi info() untuk menampilkan atribut dari masing masing kolom
+1 = 0.6683937823834197
+2 = 0.7150259067357513
+3 = 0.7150259067357513
+4 = 0.7512953367875648
+5 = 0.7564766839378239
+6 = 0.7461139896373057
+7 = 0.7305699481865285
+8 = 0.7512953367875648
+9 = 0.7512953367875648
+10 = 0.7668393782383419
 
-lalu kita akan menampilkan data yang mengandung filter yang sudah ditentukan
-filter tersebut juga dapat ditambahkan dengan fungsi unique() sehingga akan menampilkan hanya satu data per jenis
-
-Selanjutnya jika kita mau mensortir data menurut alphabet maka kita dapat menggunakan fungsi sort()
-
-Untuk penggunaan filter dapat menggunakan lebih dari 1 filter dalam satu penampilan data
+dapat dilihat jika nilai K nya rendah maka tingkat akurasinya akan juga lebih rendah. namun jika nilai K nya tinggi itu juga tidak menjamin akurasinya akan tinggi juga, hal ini dapat dilihat pada K = 6 dan 7.
